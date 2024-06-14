@@ -1,0 +1,24 @@
+/* General */
+
+.dexktop-nav{
+    display: flex;
+}
+
+.desktop-menu-list{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    padding: 5px;
+}
+
+li:hover{
+    color: gray;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.burger-nav{
+    display: flex;
+}
