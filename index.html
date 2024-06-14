@@ -5,32 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mukesh Kumar Balusami  || Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquries.css">
 </head>
 <body>
-    <nav class="dexktop-nav">
-        <div class="desktop-title">Mukesh Kumar Balusami</div>
-        <div class="desktop-menu">
-            <ul class="desktop-menu-list">
-                <li class="#about">About</li>
-                <li class="#experiance">Experiance</li>
-                <li class="#projects">Projects</li>
-                <li class="#contact">Contact</li>
+        <div class="my-title">Mukesh Kumar Balusami
+            <!-- <p>Software Developer and Automation Engineer</p> -->
+        </div>
+        <div>
+            <ul class="desktop-menu"> 
+                <li><a href="#about">About</a></li>
+                <li><a href="#experiance">Experiance</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
-    <nav class="burger-nav">
-        <div class="burger-tittle">Mukesh Kumar Balusami</div>
-        <div class="burger-icon">
-            <span></span>
-            <span></span>
-            <span></span>
+    <nav id="burger-nav">
+        <div class="my-tittle">Mukesh Kumar Balusami
+            <!-- <p>Software Developer and Automation Engineer</p> -->
         </div>
         <div class="burger-menu">
-            <li class="#about">About</li>
-            <li class="#experiance">Experiance</li>
-            <li class="#projects">Projects</li>
-            <li class="#contact">Contact</li>
+            <div class="burger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="burger-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#experiance" onclick="togglemenu()">Experiance</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
         </div>
     </nav>
+    <script src="script.js"></script>
 </body>
 </html>
